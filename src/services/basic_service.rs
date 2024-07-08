@@ -2,7 +2,6 @@ use std::{future::Future, io::Error, task::Poll};
 
 use tower::Service;
 
-
 pub struct MyFuture {
     value: String
 }
